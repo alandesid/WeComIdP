@@ -1,4 +1,4 @@
-package com.sap.cloud.extension.idp.wecom;
+package com.sap.cloud.extension.idp.demo;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

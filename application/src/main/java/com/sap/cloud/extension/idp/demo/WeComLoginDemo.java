@@ -1,4 +1,4 @@
-package com.sap.cloud.extension.idp.wecom;
+package com.sap.cloud.extension.idp.demo;
 
 import java.io.IOException;
 import java.net.URI;
@@ -30,14 +30,14 @@ import com.sap.cloud.sdk.cloudplatform.connectivity.HttpDestination;
 /**
  * Servlet implementation class WeComOAuth2Service
  */
-@WebServlet(name = "WeComService", urlPatterns = { "/oauth2/client/WeComService" })
-public class WeComService extends HttpServlet {
+@WebServlet(name = "WeComService", urlPatterns = { "/oauth2/client/WeComLoginDemo" })
+public class WeComLoginDemo extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	private static final Logger logger = LoggerFactory.getLogger(WeComService.class);   
+	private static final Logger logger = LoggerFactory.getLogger(WeComLoginDemo.class);   
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public WeComService() {
+    public WeComLoginDemo() {
         super();
         // TODO Auto-generated constructor stub
     }

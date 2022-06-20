@@ -11,7 +11,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import java.net.URL;
 
-import com.sap.cloud.extension.idp.wecom.HelloWorldServlet;
+import com.sap.cloud.extension.idp.demo.HelloWorldServlet;
 import com.sap.cloud.sdk.testutil.MockUtil;
 
 import static io.restassured.RestAssured.given;
