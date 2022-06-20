@@ -6,7 +6,7 @@
 <title>Please wait for a moment...</title>
 </head>
 <body>
- <form method="post" action="https://sp.example.com/SAML2/SSO/POST" > 
+ <form method="post" action="<%=request.getAttribute("ACService")%>" > 
  <input type="hidden" name="SAMLResponse" value="<%=request.getAttribute("SAMLResponse")%>" /> 
  <input type="hidden" name="RelayState" value="" />
  <input type="submit" value="Submit" /></form>

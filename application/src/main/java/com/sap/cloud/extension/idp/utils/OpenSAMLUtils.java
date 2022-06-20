@@ -24,7 +24,6 @@ import org.w3c.dom.Element;
 import net.shibboleth.utilities.java.support.security.impl.RandomIdentifierGenerationStrategy;
 
 /**
- * Created by Privat on 4/6/14.
  */
 public class OpenSAMLUtils {
 	private static Logger logger = LoggerFactory.getLogger(OpenSAMLUtils.class);

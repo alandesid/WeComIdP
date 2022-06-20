@@ -18,7 +18,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by Privat on 13/05/14.
  */
 public class SPCredentials {
     private static final String KEY_STORE_PASSWORD = "password";

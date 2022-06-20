@@ -149,6 +149,7 @@ public class SingleSignOnService extends HttpServlet {
 		Response samlResponse = buildResponse();
 		String samlResponseString = OpenSAMLUtils.transSAMLObject2String(samlResponse);
 		String encodedString = Base64.getEncoder().encodeToString(samlResponseString.getBytes());
+		request.setAttribute("ACService", "https://agm5kinb9.accounts.sapcloud.cn/saml2/idp/acs/agm5kinb9.accounts.sapcloud.cn");
 		request.setAttribute("SAMLResponse", encodedString);
 		request.getRequestDispatcher("/idp_post_binding.jsp").forward(request, response);
 		//response.getWriter().append("Served at: ").append(samlResponse.toString());
